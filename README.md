@@ -9,7 +9,7 @@ During discussions with Cancer Card, it was evident that nutrition was a common 
 Rather than seeing this as a limitation, I viewed it as a design opportunity, an innovative way to showcase potential outcomes if appropriate data collection and analytics systems were implemented.
 
 ## PROJECT AIMS
-The project aimed to:
+The project aimed to:  
 •	Create a practical simulation illustrating how Cancer Card could start gathering, analysing, and utilising nutrition insights using data science techniques.
 
 ## METHODS USED AND RESULTS 
