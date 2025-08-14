@@ -1,4 +1,8 @@
 ---
+output: html_document
+runtime: shiny
+---
+in---
 title: "Placement project_1308"
 author: "TONBARA DONALD IBIBO (52426639)"
 date: "2025-08-13"
@@ -11,19 +15,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Load Libraries 
 
-```{r}
+```{r message=FALSE, warning=FALSE, include=FALSE}
 
-library(shiny)        
-library(readxl)       
-library(dplyr)        
-library(ggplot2)      
-library(stringr)      
-library(DT) 
-library(packrat)
-library(PKI)
-library(renv)
-library(snowflakeauth)
-library(rsconnect)
+packages <- c("shiny", "readxl", "stringr", "DT", "packrat", "renv", "snowflakeauth", "rsconnect",  "ggplot2", "dplyr", "PKI")
+installed <- packages %in% rownames(installed.packages())
+if (any(!installed)) {
+  install.packages(packages[!installed])
+}
+lapply(packages, library, character.only = TRUE)
 
 ```
 
